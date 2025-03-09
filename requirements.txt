@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+scikit-learn
+wordcloud
+pillow
+spacy
+torch
+transformers
+python -m spacy download en_core_web_sm
