@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/2d55a29c-e0d4-4294-a8ef-d7bad1ee2135)
+
 # DistilBERT Nedir?
 
 DistilBERT, BERT modelinin daha küçük, daha hızlı ve hafif bir versiyonudur. Hugging Face tarafından geliştirilen bu model, **Knowledge Distillation (Bilgi Damıtma)** yöntemiyle eğitilmiştir. Bu sayede:
@@ -67,6 +69,8 @@ Transformers, geleneksel RNN ve LSTM gibi ardışık işleyen modellere kıyasla
 
 ## Transformer Mimarisinin Genel Yapısı
 
+![image](https://github.com/user-attachments/assets/5807ac12-22ad-45cc-a9a3-01ea36f99b81)
+
 Transformer modeli, **kodlayıcı (encoder)** ve **kod çözücü (decoder)** olmak üzere iki ana bileşenden oluşur:
 
 1. **Kodlayıcı (Encoder)**
@@ -99,6 +103,8 @@ Bu avantajlar sayesinde transformer modelleri yaygın şekilde kullanılır.
 
 ## BERT Nedir?
 
+![image](https://github.com/user-attachments/assets/8b8b21c2-73fc-405f-9557-c293564855ed)
+
 BERT (Bidirectional Encoder Representations from Transformers), Google tarafından geliştirilen çift yönlü transformer tabanlı bir NLP modelidir. BERT'in en büyük yeniliği, kelimeleri çift yönlü (bidirectional) işlemesi ve dilin bağlamını daha iyi kavramasıdır.
 
 ### Masked Language Model (MLM) ve Next Sentence Prediction (NSP)
@@ -106,10 +112,12 @@ BERT’in eğitimi için iki temel teknik kullanılır:
 
 - **Masked Language Model (MLM):** Maskelenmiş kelimeleri tahmin eder.
 - **Next Sentence Prediction (NSP):** İki cümlenin bağını tahmin eder.
-
+  
 ---
 
 ## DistilBERT Nasıl Çalışır?
+
+![The-DistilBERT-model-architecture-and-components (1)](https://github.com/user-attachments/assets/2226d4bd-fead-47d6-ba55-8de38b4dd105)
 
 DistilBERT, BERT’in bilgi yoğunluğunu koruyarak parametrelerini azaltır. Bu süreç Knowledge Distillation ile gerçekleştirilir.
 
